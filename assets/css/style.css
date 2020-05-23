@@ -497,6 +497,9 @@ background: black;
     color: white;
 }
 @media (max-width: 768px) {
+    .jumbotron{
+        height: 90vh;
+    }
     .jumbotron .welcome-text {
         position: absolute;
         top: 170px;
