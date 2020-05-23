@@ -498,7 +498,7 @@ background: black;
 }
 @media (max-width: 768px) {
     .jumbotron{
-        height: 90vh;
+        height: 80vh;
     }
     .jumbotron .welcome-text {
         position: absolute;
