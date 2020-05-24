@@ -498,7 +498,7 @@ background: black;
 }
 @media (max-width: 768px) {
     .jumbotron{
-        height: 80vh;
+        height: 100vh;
     }
     .jumbotron .welcome-text {
         position: absolute;
@@ -509,6 +509,7 @@ background: black;
     .jumbotron .wave:before,
     .jumbotron .wave:after{
         animation: none;
+        opacity: 0;
     }
     #about .aboutImg img {
         
