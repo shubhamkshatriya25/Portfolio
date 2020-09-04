@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet">
+     <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"> -->
 </head>
 
 <body>
@@ -36,8 +36,7 @@
 
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li class="menu-active"><a href="#intro">Home</a></li>
-                    <li><a href="#about">About </a></li>
+                    <li class="menu-active"><a href="#about">About </a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#blogs">Blogs</a></li>
@@ -53,9 +52,8 @@
                 <h3>Hello!</h3>
                 <h2>This is <span>Shubham Kshatriya.</span> </h2>
                 <p>I 'm | <span class="type"></span></p>
-                <a href="assets/ShubhamKshatriya__Resume.pdf" download><span></span><span></span><span></span><span></span>Resume</a>
+                <a href="assets/sk_resume.docx" download><span></span><span></span><span></span><span></span>Resume</a>
             </div>
-       
         </div>
     </section>
 
@@ -190,10 +188,28 @@
             <div class="col-lg-4 col-md-4">
                 <div class="card">
                     <div class="project-image" style="background: rgba(255, 255, 255, 0.815);">
+                        <img src="assets/img/Project2.PNG" alt="">
+                    </div>
+                    <div class="project-desc">
+                        <p style="font-size: 1.3rem;">LegalWiz Web Application</p>
+                        <p>Aug 2020</p>
+                        <p>LegalWiz is a Judicial Management System for an Organization which was under the Smart India Hackathon-2020 and was
+                        proposed by the Government of Andaman and Nicobar. It's a team project.</p>
+                        <div class="direct">
+                            <a href="https://github.com/shubhamkshatriya25/DS159_LegalWiz"
+                                style="position: absolute;left: 15px;bottom: 20px;" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="card">
+                    <div class="project-image" style="background: rgba(255, 255, 255, 0.815);">
                         <video src="assets/img/Screenrecorder-2020-07-03-16-45-19-520(0).mp4" muted loop autoplay type="mp4"></video>
                     </div>
                     <div class="project-desc">
-                        <p style="font-size: 1.3rem;">Do It Yourself</p>
+                        <p style="font-size: 1.3rem;">DIY App</p>
                         <p>June 2020</p>
                         <p>Developed this app during Hack'20, an Online Hackathon, using Flutter.This App has a various collection of DIY projects which one can make from used things and can be re-used to make useful
                         things.</p>
@@ -265,7 +281,23 @@
                     </div>
                 </div>
             </div>
-           
+            <div class="col-lg-4 col-md-4">
+                <div class="card">
+                    <div class="blog-image" style="background: rgba(255, 255, 255, 0.815);">
+                        <img src="assets/img/b3.jpg" alt="">
+                    </div>
+                    <div class="blog-desc">
+                        <p style="font-size: 1.1rem;">django & Python</p>
+                        <p>Sending emails in Python django using Google SMTP Server.</p>
+                        <div class="direct">
+                            <p class="time" style="position: absolute;left: 15px;bottom: 10px;"><i class="far fa-clock"></i>3
+                                minutes</p>
+                            <a href="https://medium.com/@shubhamkshatriya521/send-emails-in-python-django-3bcd11f1c43c" target="_blank"
+                                style="position: absolute;right: 15px;bottom: 20px;"><button>Read More</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -304,8 +336,8 @@
                 "Blogger",
                 "Web Scraper"
             ],
-            typeSpeed: 80,
-            backSpeed: 70,
+            typeSpeed: 50,
+            backSpeed: 45,
             loop: true
         });
     </script>
